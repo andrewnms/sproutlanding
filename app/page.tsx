@@ -30,19 +30,19 @@ export default function Home() {
                 <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
                   <Coins className="h-6 w-6 text-[#2ec293]" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold">Weekly Deposit System</h3>
+                <h3 className="mb-3 text-xl font-semibold">Weekly Bonus System</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Parents deposit full weekly allowance once (e.g., 1000 PHP)</span>
+                    <span>Parents set a weekly bonus amount on top of base allowance (e.g., 500 PHP)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>System automatically divides it into daily amounts</span>
+                    <span>System automatically divides it into daily earning opportunities</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Simple weekly setup with no daily management</span>
+                    <span>Children earn extra money without risking their base allowance</span>
                   </li>
                 </ul>
               </div>
@@ -80,11 +80,11 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Deposit next week's allowance (e.g., 1000 PHP)</span>
+                    <span>Deposit next week's bonus amount (e.g., 500 PHP)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Opportunity to adjust chore lists if needed</span>
+                    <span>Opportunity to adjust chore lists and bonus amounts</span>
                   </li>
                 </ul>
               </div>
@@ -124,15 +124,15 @@ export default function Home() {
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>90%+ chore completion: Earn bonus 50% allowance</span>
+                        <span>90%+ chore completion: Earn 100% of bonus amount</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>80-89% completion: Get full weekly allowance</span>
+                        <span>80-89% completion: Earn 75% of bonus amount</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>Below 80%: Partial allowance based on completion</span>
+                        <span>Below 80%: Earn 50% of bonus amount</span>
                       </li>
                     </ul>
                   </div>
@@ -213,17 +213,17 @@ export default function Home() {
                     What will happen if my child has been doing well for a few days but then stops?
                   </h3>
                   <p className="mt-3 text-gray-300">
-                    It's simple - on days when they complete all their chores, they earn that day's portion of the allowance (e.g., 143 PHP). 
-                    On days when they don't complete everything, they don't earn anything for that day. There's no partial credit - it's an 
-                    all-or-nothing system that keeps the rules clear and easy to understand.
+                    It's simple - on days when they complete all their chores, they earn that day's portion of the bonus amount (e.g., 70 PHP). 
+                    On days when they don't complete everything, they don't earn the bonus for that day. They still receive their base allowance, 
+                    but miss out on the extra earnings. This keeps the system positive while maintaining clear incentives.
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
                   <h3 className="text-xl font-semibold">What happens when my child completes all their chores?</h3>
                   <p className="mt-3 text-gray-300">
-                    Great job! They earn that day's portion of their weekly allowance right away (e.g., 143 PHP per day from a 1000 PHP weekly deposit). 
-                    The real win is the responsibility habits they're building, with the instant financial reward reinforcing the behavior immediately.
+                    Great job! They earn their base allowance plus that day's bonus amount right away (e.g., base plus 70 PHP bonus from a 500 PHP weekly bonus deposit). 
+                    The real win is the responsibility habits they're building, with the immediate financial incentive reinforcing the positive behavior.
                   </p>
                 </div>
 
@@ -244,11 +244,11 @@ export default function Home() {
                     After a week or month, rewards are distributed based on performance:
                     <br />
                     <br />
-                    <span className="font-medium text-[#2ec293]">90%+ Completion rate</span> = Extra bonus allowance
+                    <span className="font-medium text-[#2ec293]">90%+ Completion rate</span> = 150% of weekly bonus
                     <br />
-                    <span className="font-medium text-[#2ec293]">80%-89% Completion rate</span> = Full weekly allowance
+                    <span className="font-medium text-[#2ec293]">80%-89% Completion rate</span> = 100% of weekly bonus
                     <br />
-                    <span className="font-medium text-[#2ec293]">&lt;79% Completion rate</span> = Partial allowance
+                    <span className="font-medium text-[#2ec293]">&lt;79% Completion rate</span> = 50% of weekly bonus
                   </p>
                 </div>
 
@@ -271,14 +271,14 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-8 text-3xl font-bold tracking-tight md:text-4xl">The Bottom Line</h2>
               <p className="mb-8 text-lg">
-                You're already setting aside allowance money for your kids. Why not structure it in a way that 
+                You're already giving your kids an allowance. Why not add a bonus structure that 
                 motivates them to complete their chores every single day?
               </p>
               <p className="mb-8 text-lg font-medium">
-                Deposit once a week, divide by seven days, and watch your children eagerly complete their daily tasks to earn their 
-                immediate rewards. No more nagging, just results.
+                Set a weekly bonus amount, divide by seven days, and watch your children eagerly complete their daily tasks to earn their 
+                extra rewards. They keep their base allowance no matter what, but work harder for the bonus. No more nagging, just results.
               </p>
-              <p className="text-2xl font-bold">Sprout: Where daily payments create daily results.</p>
+              <p className="text-2xl font-bold">Sprout: Where bonus incentives create daily results.</p>
             </div>
           </div>
         </section>
