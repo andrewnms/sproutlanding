@@ -12,11 +12,11 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl z-10">
-              Chore Tracking That <br />
-              <span className="text-[#2ec293]">Motivates Kids</span>
+              Make Chores Fun <br />
+              <span className="text-[#2ec293]">with Daily Rewards!</span>
             </h1>
             <p className="mb-10 text-lg text-gray-300 md:text-xl max-w-2xl mx-auto z-10">
-              Turn your children's chores into daily achievements with the only chore system that uses bonus incentives.
+              Help your kids build great habits while earning exciting bonuses for completing their daily tasks!
             </p>
           </>
         }
@@ -46,7 +46,7 @@ export function HeroScrollDemo() {
               </svg>
             </div>
             <h2 className="text-4xl font-bold text-[#2ec293] mb-4">SPROUT</h2>
-            <p className="text-xl text-gray-300 text-center max-w-md">Where bonus incentives create daily results</p>
+            <p className="text-xl text-gray-300 text-center max-w-md">Growing responsibility, one chore at a time!</p>
           </div>
         </div>
       </ContainerScroll>
