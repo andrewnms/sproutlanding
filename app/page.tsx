@@ -30,19 +30,19 @@ export default function Home() {
                 <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
                   <Coins className="h-6 w-6 text-[#2ec293]" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold">Allowance Pool</h3>
+                <h3 className="mb-3 text-xl font-semibold">Weekly Deposit System</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Parents set aside a small weekly allowance ($5-20)</span>
+                    <span>Parents deposit full weekly allowance once (e.g., 1000 PHP)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Money serves as both potential reward and motivation tool</span>
+                    <span>System automatically divides it into daily amounts</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>All funds remain under parent control until earned</span>
+                    <span>Simple weekly setup with no daily management</span>
                   </li>
                 </ul>
               </div>
@@ -51,19 +51,19 @@ export default function Home() {
                 <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
                   <Zap className="h-6 w-6 text-[#2ec293]" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold">Reward System</h3>
+                <h3 className="mb-3 text-xl font-semibold">Daily Completion Rewards</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Completing chores unlocks portions of weekly allowance</span>
+                    <span>Children earn daily payment by completing all tasks</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Consistent performance increases rewards (5% → 10% → 15%)</span>
+                    <span>All-or-nothing approach ensures everything gets done</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Missed chores reduce potential earnings, not punishments</span>
+                    <span>Immediate rewards create powerful daily motivation</span>
                   </li>
                 </ul>
               </div>
@@ -72,19 +72,19 @@ export default function Home() {
                 <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
                   <Calendar className="h-6 w-6 text-[#2ec293]" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold">Kid-Friendly Flexibility</h3>
+                <h3 className="mb-3 text-xl font-semibold">Weekly Review System</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Built-in "Off Days" (1-2 per week) without losing progress</span>
+                    <span>Parents review weekly performance with children</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Performance streak protection for occasional forgetfulness</span>
+                    <span>Deposit next week's allowance (e.g., 1000 PHP)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>"Catch-up bonus" makes getting back on track exciting</span>
+                    <span>Opportunity to adjust chore lists if needed</span>
                   </li>
                 </ul>
               </div>
@@ -213,17 +213,17 @@ export default function Home() {
                     What will happen if my child has been doing well for a few days but then stops?
                   </h3>
                   <p className="mt-3 text-gray-300">
-                    As they miss more consecutive chores, the allowance they can earn gradually decreases. However, they never lose
-                    everything—our system is designed to encourage them to get back on track, not to discourage them after a setback.
+                    It's simple - on days when they complete all their chores, they earn that day's portion of the allowance (e.g., 143 PHP). 
+                    On days when they don't complete everything, they don't earn anything for that day. There's no partial credit - it's an 
+                    all-or-nothing system that keeps the rules clear and easy to understand.
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
                   <h3 className="text-xl font-semibold">What happens when my child completes all their chores?</h3>
                   <p className="mt-3 text-gray-300">
-                    Great job! They've established a good chore routine and earned their full allowance. Plus, they can earn bonus
-                    rewards for consistent performance! The real win is the responsibility habits they're building, with the
-                    allowance as their well-deserved reward.
+                    Great job! They earn that day's portion of their weekly allowance right away (e.g., 143 PHP per day from a 1000 PHP weekly deposit). 
+                    The real win is the responsibility habits they're building, with the instant financial reward reinforcing the behavior immediately.
                   </p>
                 </div>
 
@@ -255,9 +255,9 @@ export default function Home() {
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
                   <h3 className="text-xl font-semibold">What makes Sprout different from regular chore charts?</h3>
                   <p className="mt-3 text-gray-300">
-                    Regular chore charts get ignored after a few days. They don't offer real incentives for kids to actually
-                    complete tasks. Sprout gamifies chores with immediate rewards and friendly competition, creating a system
-                    where kids are genuinely motivated to participate without constant parent nagging.
+                    Regular chore charts get ignored after a few days because they don't offer immediate rewards. Sprout's daily payment
+                    system provides instant gratification - complete today's chores, get today's money right away. This immediate cause-and-effect
+                    relationship is far more motivating than traditional weekly allowances or sticker charts.
                   </p>
                 </div>
               </div>
@@ -271,13 +271,14 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-8 text-3xl font-bold tracking-tight md:text-4xl">The Bottom Line</h2>
               <p className="mb-8 text-lg">
-                You're already trying to get your kids to do chores. You're already considering giving them an allowance.
-                Why not combine the two in a way that actually motivates them to participate willingly?
+                You're already setting aside allowance money for your kids. Why not structure it in a way that 
+                motivates them to complete their chores every single day?
               </p>
               <p className="mb-8 text-lg font-medium">
-                Turn nagging into excitement. Make chores a habit they look forward to. Help them earn rewards while learning responsibility.
+                Deposit once a week, divide by seven days, and watch your children eagerly complete their daily tasks to earn their 
+                immediate rewards. No more nagging, just results.
               </p>
-              <p className="text-2xl font-bold">Sprout: Where chores become opportunities.</p>
+              <p className="text-2xl font-bold">Sprout: Where daily payments create daily results.</p>
             </div>
           </div>
         </section>
