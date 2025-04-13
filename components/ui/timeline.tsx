@@ -33,10 +33,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 text-white dark:text-white max-w-4xl">
-          How Sprout Works: Your Journey
+          How Sprout Works: Your Kids' Journey
         </h2>
         <p className="text-gray-300 dark:text-gray-300 text-sm md:text-base max-w-sm">
-          Building habits that stick with real accountability and rewards.
+          Transforming chores from nagging battles into rewarding activities kids want to do.
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

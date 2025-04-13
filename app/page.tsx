@@ -12,10 +12,10 @@ export default function Home() {
         <section className="py-20">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="mb-6 text-3xl font-bold tracking-tight md:text-4xl">The Problem With Habit Apps</h2>
+              <h2 className="mb-6 text-3xl font-bold tracking-tight md:text-4xl">The Problem With Chore Charts</h2>
               <p className="text-lg text-gray-300">
-                Most habit trackers get deleted after a few weeks because they lack real stakes. Streaks and badges
-                aren't enough when motivation fades. We've created something different.
+                Most chore charts get ignored after a few days because they lack real incentives. Stars and checkmarks
+                aren't enough when kids lose interest. We've created something different that actually motivates children.
               </p>
             </div>
           </div>
@@ -30,19 +30,19 @@ export default function Home() {
                 <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
                   <Coins className="h-6 w-6 text-[#2ec293]" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold">Personal Stake Pool</h3>
+                <h3 className="mb-3 text-xl font-semibold">Allowance Pool</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Users deposit their own funds ($5-20)</span>
+                    <span>Parents set aside a small weekly allowance ($5-20)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Money serves as both potential reward and accountability mechanism</span>
+                    <span>Money serves as both potential reward and motivation tool</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>All transactions happen within user's own account</span>
+                    <span>All funds remain under parent control until earned</span>
                   </li>
                 </ul>
               </div>
@@ -51,19 +51,19 @@ export default function Home() {
                 <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
                   <Zap className="h-6 w-6 text-[#2ec293]" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold">Unlock Mechanism</h3>
+                <h3 className="mb-3 text-xl font-semibold">Reward System</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Daily habit completion unlocks portions of user's own stake</span>
+                    <span>Completing chores unlocks portions of weekly allowance</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Consecutive streaks increase unlock percentages (5% → 10% → 15%)</span>
+                    <span>Consistent performance increases rewards (5% → 10% → 15%)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Missed days re-lock small portions of already unlocked funds</span>
+                    <span>Missed chores reduce potential earnings, not punishments</span>
                   </li>
                 </ul>
               </div>
@@ -72,19 +72,19 @@ export default function Home() {
                 <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
                   <Calendar className="h-6 w-6 text-[#2ec293]" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold">Flexibility System</h3>
+                <h3 className="mb-3 text-xl font-semibold">Kid-Friendly Flexibility</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Pre-scheduled "Flex Days" (1-2 per week) with no penalties</span>
+                    <span>Built-in "Off Days" (1-2 per week) without losing progress</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Streak protection for occasional misses</span>
+                    <span>Performance streak protection for occasional forgetfulness</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 h-4 w-4 text-[#2ec293] mt-1 flex-shrink-0" />
-                    <span>Easy re-entry after breaks with "comeback bonus"</span>
+                    <span>"Catch-up bonus" makes getting back on track exciting</span>
                   </li>
                 </ul>
               </div>
@@ -99,46 +99,46 @@ export default function Home() {
         <section className="py-24 bg-black/50">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-12 text-center text-3xl font-bold tracking-tight md:text-4xl">Optional Social Layer</h2>
+              <h2 className="mb-12 text-center text-3xl font-bold tracking-tight md:text-4xl">Sibling Competition Layer</h2>
               <div className="overflow-hidden rounded-2xl bg-gray-900 p-8 border border-gray-800">
                 <div className="mb-8 grid gap-8 md:grid-cols-2">
                   <div>
-                    <h3 className="mb-4 text-xl font-semibold text-[#2ec293]">Create a Group Challenge</h3>
+                    <h3 className="mb-4 text-xl font-semibold text-[#2ec293]">Create Sibling Challenges</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>Create challenges with friends using pooled stakes</span>
+                        <span>Set up friendly competitions between siblings</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>Top performers earn larger shares of group pool</span>
+                        <span>Top performers earn bonus allowance from shared pool</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>Minimum completion threshold ensures everyone has a chance</span>
+                        <span>Every child has a chance to earn with minimum effort</span>
                       </li>
                     </ul>
                   </div>
                   <div>
-                    <h3 className="mb-4 text-xl font-semibold text-[#2ec293]">Earn Rewards</h3>
+                    <h3 className="mb-4 text-xl font-semibold text-[#2ec293]">Earn Family Rewards</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>90%+ completion: Earn 1.5× your stake</span>
+                        <span>90%+ chore completion: Earn bonus 50% allowance</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>80-89% completion: Get your money back</span>
+                        <span>80-89% completion: Get full weekly allowance</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="mr-3 h-5 w-5 text-[#2ec293]" />
-                        <span>Below 80%: Better luck next time!</span>
+                        <span>Below 80%: Partial allowance based on completion</span>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <p className="text-gray-400">
-                  The underperformers fund the overachievers, creating real motivation to stay consistent.
+                  Friendly competition motivates siblings to do their best, creating real incentives to complete chores consistently.
                 </p>
               </div>
             </div>
@@ -154,40 +154,37 @@ export default function Home() {
                 <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
                   <h3 className="mb-4 flex items-center text-xl font-semibold">
                     <Shield className="mr-3 h-5 w-5 text-[#2ec293]" />
-                    Your Money Stays Yours
+                    No Punishment System
                   </h3>
                   <p className="text-gray-300">
-                    All "penalties" stay within user's own account (never lost). The system is designed to motivate, not
-                    punish.
+                    No taking things away or grounding. The system is designed to motivate through positive reinforcement, not punishment.
                   </p>
                 </div>
                 <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
                   <h3 className="mb-4 flex items-center text-xl font-semibold">
                     <RefreshCw className="mr-3 h-5 w-5 text-[#2ec293]" />
-                    Balance
+                    Kid-Friendly Flexibility
                   </h3>
                   <p className="text-gray-300">
-                    System balances accountability with forgiveness, understanding that building habits is a journey
-                    with ups and downs.
+                    System balances responsibility with understanding, recognizing that kids need flexibility and occasional second chances.
                   </p>
                 </div>
                 <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
                   <h3 className="mb-4 flex items-center text-xl font-semibold">
                     <Coins className="mr-3 h-5 w-5 text-[#2ec293]" />
-                    Self-Sustainable
+                    Parent-Controlled
                   </h3>
                   <p className="text-gray-300">
-                    Rewards come from user's own funds, creating a sustainable system that doesn't rely on external
-                    incentives.
+                    Parents maintain full control over allowance funds, with complete visibility into chore completion and reward distribution.
                   </p>
                 </div>
                 <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
                   <h3 className="mb-4 flex items-center text-xl font-semibold">
                     <ArrowRight className="mr-3 h-5 w-5 text-[#2ec293]" />
-                    Progress Over Punishment
+                    Progress Visualization
                   </h3>
                   <p className="text-gray-300">
-                    Focus on progress visualization over punishment, helping users see their growth and stay motivated.
+                    Kids see their progress with fun, interactive visuals that celebrate achievements and motivate consistent effort.
                   </p>
                 </div>
               </div>
@@ -204,64 +201,63 @@ export default function Home() {
               </h2>
               <div className="space-y-4">
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
-                  <h3 className="text-xl font-semibold">What if they fail to do a habit once?</h3>
+                  <h3 className="text-xl font-semibold">What if my child forgets to do a chore?</h3>
                   <p className="mt-3 text-gray-300">
-                    We incorporate a freeze streak system similar to Duolingo. Your first miss is free. For subsequent
-                    misses, you'll have options to protect your streak and progress.
+                    We incorporate a forgiveness system similar to popular learning apps. The first miss is free. For subsequent
+                    misses, they'll have options to protect their streak and progress by doing make-up chores.
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
                   <h3 className="text-xl font-semibold">
-                    What will happen if they had a streak of more than 2 days then ultimately ended up failing a day?
+                    What will happen if my child has been doing well for a few days but then stops?
                   </h3>
                   <p className="mt-3 text-gray-300">
-                    With more consecutive days you miss, the unlocked amount gets progressively reduced. However, you
-                    never lose everything—our system is designed to encourage you to get back on track, not punish you
-                    for life's inevitable disruptions.
+                    As they miss more consecutive chores, the allowance they can earn gradually decreases. However, they never lose
+                    everything—our system is designed to encourage them to get back on track, not to discourage them after a setback.
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
-                  <h3 className="text-xl font-semibold">What happens if we complete it?</h3>
+                  <h3 className="text-xl font-semibold">What happens when my child completes all their chores?</h3>
                   <p className="mt-3 text-gray-300">
-                    Great job! You've formed a good habit. Plus! You get money as a reward too! (your money back, of
-                    course). The real win is the habit you've built, with the financial incentive as a bonus.
+                    Great job! They've established a good chore routine and earned their full allowance. Plus, they can earn bonus
+                    rewards for consistent performance! The real win is the responsibility habits they're building, with the
+                    allowance as their well-deserved reward.
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
-                  <h3 className="text-xl font-semibold">How do we verify if you actually did the habit?</h3>
+                  <h3 className="text-xl font-semibold">How do we verify if my child actually did their chores?</h3>
                   <p className="mt-3 text-gray-300">
-                    We offer multiple verification methods: take a photo, connect with Strava, sync with Apple Health,
-                    and more. Our verification system is flexible yet effective to ensure accountability.
+                    We offer multiple verification methods: take a photo of the completed chore, parent verification codes,
+                    task timers, and more. Our verification system is flexible yet effective to ensure chores are genuinely completed.
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
                   <h3 className="text-xl font-semibold">
-                    How about competition? Let's say I want to bring a group of friends?
+                    How does the sibling competition work?
                   </h3>
                   <p className="mt-3 text-gray-300">
-                    Let's say 5 people enter, each puts money into it equally into a grouped pool stake. After 21 days,
-                    we split the winnings!
+                    Let's say you have 3 children. Each has their own chore list, and you set an additional family bonus pool.
+                    After a week or month, rewards are distributed based on performance:
                     <br />
                     <br />
-                    <span className="font-medium text-[#2ec293]">90%+ Completion rate</span> = 1.5x your deposit
+                    <span className="font-medium text-[#2ec293]">90%+ Completion rate</span> = Extra bonus allowance
                     <br />
-                    <span className="font-medium text-[#2ec293]">80%-89% Completion rate</span> = 1x your deposit (money
-                    back)
+                    <span className="font-medium text-[#2ec293]">80%-89% Completion rate</span> = Full weekly allowance
                     <br />
-                    <span className="font-medium text-[#2ec293]">&lt;79% Completion rate</span> = No return
+                    <span className="font-medium text-[#2ec293]">&lt;79% Completion rate</span> = Partial allowance
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-gray-900 p-6 border border-gray-800">
-                  <h3 className="text-xl font-semibold">What makes us different from a regular Habit Tracker?</h3>
+                  <h3 className="text-xl font-semibold">What makes Sprout different from regular chore charts?</h3>
                   <p className="mt-3 text-gray-300">
-                    After a few weeks, you'll delete most habit trackers. They don't offer incentives nor penalties for
-                    you to actually feel the habits. We gamify the habit building approach with real stakes and rewards
-                    that keep you motivated long-term.
+                    Regular chore charts get ignored after a few days. They don't offer real incentives for kids to actually
+                    complete tasks. Sprout gamifies chores with immediate rewards and friendly competition, creating a system
+                    where kids are genuinely motivated to participate without constant parent nagging.
                   </p>
                 </div>
               </div>
@@ -275,14 +271,13 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-8 text-3xl font-bold tracking-tight md:text-4xl">The Bottom Line</h2>
               <p className="mb-8 text-lg">
-                You're going to pay for that gym membership anyway. You're going to buy that language learning app
-                regardless. Why not put some skin in the game and get paid to follow through?
+                You're already trying to get your kids to do chores. You're already considering giving them an allowance.
+                Why not combine the two in a way that actually motivates them to participate willingly?
               </p>
               <p className="mb-8 text-lg font-medium">
-                Turn intention into action. Make habits that stick. Get your money back (and then some) when you
-                succeed.
+                Turn nagging into excitement. Make chores a habit they look forward to. Help them earn rewards while learning responsibility.
               </p>
-              <p className="text-2xl font-bold">Sprout: Where habits pay dividends.</p>
+              <p className="text-2xl font-bold">Sprout: Where chores become opportunities.</p>
             </div>
           </div>
         </section>

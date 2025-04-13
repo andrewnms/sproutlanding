@@ -6,35 +6,35 @@ import { Coins, Calendar, Zap, ArrowRight } from "lucide-react";
 export function JourneyTimeline() {
   const data = [
     {
-      title: "Start",
+      title: "Setup",
       content: (
         <div>
           <p className="text-gray-300 text-xs md:text-sm font-normal mb-4">
-            Begin your habit-building journey by depositing funds into your personal stake pool.
-            This creates real accountability from day one.
+            Parents set up the system by creating a dedicated allowance pool for their children.
+            This establishes clear expectations from the start.
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <Coins className="h-4 w-4 text-[#2ec293]" />
-              <span>Deposit between $5-$20 (you choose the amount)</span>
+              <span>Set aside a small weekly allowance ($5-$20 per child)</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <Coins className="h-4 w-4 text-[#2ec293]" />
-              <span>Money stays in your account, never lost to third parties</span>
+              <span>Create customized chore lists for each child</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm">
               <Coins className="h-4 w-4 text-[#2ec293]" />
-              <span>Creates meaningful stakes for habit completion</span>
+              <span>Establish meaningful incentives without extra cost</span>
             </div>
           </div>
           <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
             <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
               <Coins className="h-6 w-6 text-[#2ec293]" />
             </div>
-            <h3 className="mb-3 text-xl font-semibold text-white">Personal Stake Pool</h3>
+            <h3 className="mb-3 text-xl font-semibold text-white">Allowance Pool</h3>
             <p className="text-gray-300">
-              Your deposit serves as both potential reward and accountability mechanism. 
-              The money is always yours - it's used to motivate consistency, not as a penalty.
+              Parents maintain full control over allowance funds while providing children with clear goals. 
+              Kids know exactly what they need to do to earn their rewards.
             </p>
           </div>
         </div>
@@ -45,32 +45,32 @@ export function JourneyTimeline() {
       content: (
         <div>
           <p className="text-gray-300 text-xs md:text-sm font-normal mb-4">
-            Complete your daily habit to unlock portions of your stake. 
-            The longer your streak, the bigger the rewards.
+            Children complete their assigned chores to earn portions of their allowance. 
+            Consistent performance is rewarded with increasing bonuses.
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <Zap className="h-4 w-4 text-[#2ec293]" />
-              <span>Day 1: Unlock 5% of your stake</span>
+              <span>Day 1: Earn base portion of weekly allowance</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <Zap className="h-4 w-4 text-[#2ec293]" />
-              <span>Days 3-7: Unlock 10% of your stake</span>
+              <span>Days 3-7: Earn increased rewards for consistency</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm">
               <Zap className="h-4 w-4 text-[#2ec293]" />
-              <span>Days 8+: Unlock 15% of your stake</span>
+              <span>Visual progress bar keeps kids engaged and motivated</span>
             </div>
           </div>
           <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
             <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
               <Zap className="h-6 w-6 text-[#2ec293]" />
             </div>
-            <h3 className="mb-3 text-xl font-semibold text-white">Unlock Mechanism</h3>
+            <h3 className="mb-3 text-xl font-semibold text-white">Reward System</h3>
             <p className="text-gray-300">
-              Your habit completion directly impacts how much of your money becomes available.
-              As you build consistency, you're rewarded with increased unlocks, creating a
-              powerful feedback loop.
+              Chore completion directly impacts how much allowance children earn each week.
+              As they build consistency, they're rewarded with increasing bonuses, creating
+              a powerful positive feedback loop.
             </p>
           </div>
         </div>
@@ -81,31 +81,32 @@ export function JourneyTimeline() {
       content: (
         <div>
           <p className="text-gray-300 text-xs md:text-sm font-normal mb-4">
-            Life happens. That's why Sprout includes flexibility built right into the system.
-            Plan ahead for days when you know you'll need a break.
+            We know kids aren't perfect. That's why Sprout includes kid-friendly flexibility
+            built right into the system. Plan for busy school days or special events.
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <Calendar className="h-4 w-4 text-[#2ec293]" />
-              <span>Schedule 1-2 "Flex Days" per week with no penalties</span>
+              <span>Schedule 1-2 "Off Days" per week without penalties</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <Calendar className="h-4 w-4 text-[#2ec293]" />
-              <span>Streak protection prevents progress loss for occasional misses</span>
+              <span>Performance protection for forgetful moments</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm">
               <Calendar className="h-4 w-4 text-[#2ec293]" />
-              <span>"Comeback bonus" makes restarting easier after breaks</span>
+              <span>"Catch-up bonus" makes getting back on track exciting</span>
             </div>
           </div>
           <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
             <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
               <Calendar className="h-6 w-6 text-[#2ec293]" />
             </div>
-            <h3 className="mb-3 text-xl font-semibold text-white">Flexibility System</h3>
+            <h3 className="mb-3 text-xl font-semibold text-white">Kid-Friendly Flexibility</h3>
             <p className="text-gray-300">
-              We understand habit-building isn't always linear. Our system balances accountability 
-              with forgiveness, creating sustainable motivation that works with your life, not against it.
+              We understand children need flexibility. Our system balances responsibility 
+              with understanding, creating sustainable motivation that works with your family's
+              schedule, not against it.
             </p>
           </div>
         </div>
@@ -116,31 +117,31 @@ export function JourneyTimeline() {
       content: (
         <div>
           <p className="text-gray-300 text-xs md:text-sm font-normal mb-4">
-            See tangible rewards for your consistency and habit formation.
-            You've earned it - now decide how to use your unlocked funds.
+            Children see tangible rewards for their responsibility and consistent chore completion.
+            Parents see cleaner homes and more responsible kids.
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <ArrowRight className="h-4 w-4 text-[#2ec293]" />
-              <span>Withdraw unlocked funds as a self-reward</span>
+              <span>Kids receive earned allowance weekly or monthly</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
               <ArrowRight className="h-4 w-4 text-[#2ec293]" />
-              <span>Reinvest in new habit challenges</span>
+              <span>Parents enjoy a tidier home without constant nagging</span>
             </div>
             <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm">
               <ArrowRight className="h-4 w-4 text-[#2ec293]" />
-              <span>Join group challenges with friends</span>
+              <span>Children learn valuable responsibility and financial skills</span>
             </div>
           </div>
           <div className="rounded-xl bg-gray-900 p-8 border border-gray-800">
             <div className="mb-6 inline-flex rounded-full bg-[#2ec293]/10 p-3">
               <ArrowRight className="h-6 w-6 text-[#2ec293]" />
             </div>
-            <h3 className="mb-3 text-xl font-semibold text-white">Progress Over Punishment</h3>
+            <h3 className="mb-3 text-xl font-semibold text-white">Progress Visualization</h3>
             <p className="text-gray-300">
-              The real win is the habit you've built, with the financial incentive as your well-earned bonus.
-              Seeing your progress visualized helps reinforce your success and keeps you motivated.
+              The real win is the responsibility habits children develop, with financial rewards as their
+              well-earned bonus. Colorful charts and achievement badges keep kids motivated and excited.
             </p>
           </div>
         </div>
